@@ -11,6 +11,8 @@ void main() {
 
 	int a = 1, b = 1; //because we are declaring a and b as ints, they are limited in size
 			  //numbers higher than ~2billion aren't stored and computed correctly
+			  //in this instance the function will run, but answers are meaningless
+
 	//input numbers
 	printf("Enter the first number: ");
 	scanf("%d", &a);
